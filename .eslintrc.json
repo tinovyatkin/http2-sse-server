@@ -1,0 +1,44 @@
+{
+  // ESLint 7.x is not understanding private class field, so, need better parser
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "plugin:jsdoc/recommended",
+    "plugin:unicorn/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "rules": {
+    "no-empty": [
+      "error",
+      {
+        "allowEmptyCatch": true
+      }
+    ],
+    "import/no-commonjs": "error",
+    "import/extensions": ["error", "always"]
+  },
+  "overrides": [
+    {
+      "files": ["*.test.js", "test/**.js"],
+      "env": {
+        "mocha": true
+      },
+      "extends": ["plugin:mocha/recommended"]
+    }
+  ],
+  "settings": {
+    "jsdoc": {
+      "mode": "typescript"
+    }
+  }
+}

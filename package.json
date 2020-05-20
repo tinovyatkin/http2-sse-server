@@ -1,0 +1,30 @@
+{
+  "name": "modern-node-template",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=14.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Konstantin Vyatkin <tino@vtkn.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "7.0.2",
+    "@types/node": "14.0.4",
+    "@typescript-eslint/parser": "2.34.0",
+    "c8": "7.1.2",
+    "eslint": "7.0.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-jsdoc": "25.4.2",
+    "eslint-plugin-mocha": "7.0.0",
+    "eslint-plugin-unicorn": "20.0.0",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.4",
+    "prettier": "2.0.5"
+  }
+}
