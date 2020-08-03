@@ -1,6 +1,6 @@
 {
   "name": "modern-node-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -29,6 +29,6 @@
     "typescript": "3.9.3"
   },
   "dependencies": {
-    "mongodb": "3.5.7"
+    "mongodb": "3.6.0"
   }
 }
