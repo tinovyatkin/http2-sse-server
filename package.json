@@ -25,6 +25,10 @@
     "eslint-plugin-unicorn": "20.0.0",
     "husky": "4.2.5",
     "lint-staged": "10.2.4",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "typescript": "3.9.3"
+  },
+  "dependencies": {
+    "mongodb": "3.5.7"
   }
 }
