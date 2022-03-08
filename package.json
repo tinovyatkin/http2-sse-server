@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/mocha": "7.0.2",
     "@types/node": "14.14.14",
-    "@typescript-eslint/parser": "2.34.0",
+    "@typescript-eslint/parser": "5.14.0",
     "c8": "7.3.4",
     "eslint": "7.0.0",
     "eslint-config-prettier": "6.11.0",
